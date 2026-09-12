@@ -2,8 +2,8 @@ package main
 
 import (
 	"log/slog"
-	"ruyi-index-resolve-bot/bot"
-	"ruyi-index-resolve-bot/bot/model"
+
+	"github.com/ruyisdk-test/ruyi-index-resolve-bot/bot"
 )
 
 func main() {
@@ -12,13 +12,13 @@ func main() {
 		slog.Error("failed to load config:", "error", err)
 		return
 	}
-	err = model.Hello(config)
+	err = bot.ModelHello(config)
 	if err != nil {
 		slog.Error("failed to greet model:", "error", err)
 		return
 	}
 
-	resp, err := model.Ask("我们第一次见吗")
+	resp, err := bot.ModelAsk("我们第一次见吗")
 
 	if err != nil {
 		return

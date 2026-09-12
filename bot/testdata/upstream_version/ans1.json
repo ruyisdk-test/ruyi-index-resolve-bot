@@ -1,0 +1,15 @@
+{
+  "name": "ubuntu-cdimage",
+  "web": [
+    "web1.txt"
+  ],
+  "oldv": "oldv1.txt",
+  "result": {
+    "version": [
+      "25.10",
+      "26.04",
+      "26.04.1",
+      "26.10"
+    ]
+  }
+}

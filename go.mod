@@ -1,4 +1,4 @@
-module ruyi-index-resolve-bot
+module github.com/ruyisdk-test/ruyi-index-resolve-bot
 
 go 1.25.0
 

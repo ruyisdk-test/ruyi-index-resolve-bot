@@ -1,10 +1,9 @@
-package model
+package bot
 
 import (
 	"context"
 	"fmt"
 	"log/slog"
-	"ruyi-index-resolve-bot/bot"
 
 	"github.com/firebase/genkit/go/ai"
 	"github.com/firebase/genkit/go/genkit"
@@ -16,7 +15,7 @@ import (
 var botGenKit *genkit.Genkit = nil
 var botModel *ai.ModelRef = nil
 
-func Hello(config *bot.Config) error {
+func ModelHello(config *Config) error {
 
 	ctx := context.Background()
 
@@ -54,13 +53,17 @@ func Hello(config *bot.Config) error {
 	return nil
 }
 
-func Ask(msg string) (*ai.ModelResponse, error) {
+func ModelAsk(msg string) (*ai.ModelResponse, error) {
 	return genkit.Generate(
 		context.Background(),
 		botGenKit,
 		ai.WithModel(botModel),
 		ai.WithPrompt(msg),
 	)
+}
+
+type UpstreamVersionResult struct {
+	Version []string `json:"version"`
 }
 
 type PackageResults struct {
@@ -73,8 +76,12 @@ type PackageResult struct {
 	URLs    []string `json:"urls"`
 }
 
-func AskData(msg string) (*PackageResults, *ai.ModelResponse, error) {
-	return genkit.GenerateData[PackageResults](
+func ModelAskUpstreamVersion(msg string) (*UpstreamVersionResult, *ai.ModelResponse, error) {
+	return ModelAskData[UpstreamVersionResult](msg)
+}
+
+func ModelAskData[T any](msg string) (*T, *ai.ModelResponse, error) {
+	return genkit.GenerateData[T](
 		context.Background(),
 		botGenKit,
 		ai.WithModel(botModel),
