@@ -1,0 +1,302 @@
+[
+  {
+    "name": "20260407",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20260407",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20260407",
+    "commit": {
+      "sha": "d4003f15b35d43ad4842f427050ab2bba0114fa5",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/d4003f15b35d43ad4842f427050ab2bba0114fa5"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNjA0MDc"
+  },
+  {
+    "name": "20260114",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20260114",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20260114",
+    "commit": {
+      "sha": "d4003f15b35d43ad4842f427050ab2bba0114fa5",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/d4003f15b35d43ad4842f427050ab2bba0114fa5"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNjAxMTQ"
+  },
+  {
+    "name": "20251230",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20251230",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20251230",
+    "commit": {
+      "sha": "61013d819e63fa4d4516a1c0f5a112794136f08e",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/61013d819e63fa4d4516a1c0f5a112794136f08e"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNTEyMzA"
+  },
+  {
+    "name": "20251211",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20251211",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20251211",
+    "commit": {
+      "sha": "f3639b07dd008805050454fb6d601b0166b08c7c",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/f3639b07dd008805050454fb6d601b0166b08c7c"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNTEyMTE"
+  },
+  {
+    "name": "20251202",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20251202",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20251202",
+    "commit": {
+      "sha": "27b96adb52eaf98f2208041b272c78ecd2ad0c9d",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/27b96adb52eaf98f2208041b272c78ecd2ad0c9d"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNTEyMDI"
+  },
+  {
+    "name": "20250804",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20250804",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20250804",
+    "commit": {
+      "sha": "891bfba94f8af13654db0ee119cf82d22fc13d39",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/891bfba94f8af13654db0ee119cf82d22fc13d39"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNTA4MDQ"
+  },
+  {
+    "name": "20250730",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20250730",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20250730",
+    "commit": {
+      "sha": "6aedfa43dbb534f7b0bafd9fef1a6e215a694727",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/6aedfa43dbb534f7b0bafd9fef1a6e215a694727"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNTA3MzA"
+  },
+  {
+    "name": "20250729",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20250729",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20250729",
+    "commit": {
+      "sha": "21ffdadc78a29e1713b186a9247f99a6864e2418",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/21ffdadc78a29e1713b186a9247f99a6864e2418"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNTA3Mjk"
+  },
+  {
+    "name": "20250728",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20250728",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20250728",
+    "commit": {
+      "sha": "64510bd44d79c17aa4c7fe4792591da24dd86808",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/64510bd44d79c17aa4c7fe4792591da24dd86808"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNTA3Mjg"
+  },
+  {
+    "name": "20250417",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20250417",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20250417",
+    "commit": {
+      "sha": "a3ccb527b2024c049d2be9f86268f3c28f94576c",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/a3ccb527b2024c049d2be9f86268f3c28f94576c"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNTA0MTc"
+  },
+  {
+    "name": "20250319",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20250319",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20250319",
+    "commit": {
+      "sha": "e4e133f3df3812f1f441b622a1ff5a086eb18c3e",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/e4e133f3df3812f1f441b622a1ff5a086eb18c3e"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNTAzMTk"
+  },
+  {
+    "name": "20250114",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20250114",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20250114",
+    "commit": {
+      "sha": "74169741e054600d508db3bd9ac4ccf9bd18eff8",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/74169741e054600d508db3bd9ac4ccf9bd18eff8"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNTAxMTQ"
+  },
+  {
+    "name": "20250113",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20250113",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20250113",
+    "commit": {
+      "sha": "e0ea306a95b6eda06eb40b6b2521565a913a79b7",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/e0ea306a95b6eda06eb40b6b2521565a913a79b7"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNTAxMTM"
+  },
+  {
+    "name": "20250111",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20250111",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20250111",
+    "commit": {
+      "sha": "48724b1a0d791c10bfe46a850b1b3fdce192a17d",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/48724b1a0d791c10bfe46a850b1b3fdce192a17d"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNTAxMTE"
+  },
+  {
+    "name": "20241220",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20241220",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20241220",
+    "commit": {
+      "sha": "1fcc2fd409a11c606afcf4b0dccce639e80e3a49",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/1fcc2fd409a11c606afcf4b0dccce639e80e3a49"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNDEyMjA"
+  },
+  {
+    "name": "20241129",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20241129",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20241129",
+    "commit": {
+      "sha": "540e9435a194049a39d2c2f6894fb7e6fb65577d",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/540e9435a194049a39d2c2f6894fb7e6fb65577d"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNDExMjk"
+  },
+  {
+    "name": "20241021",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20241021",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20241021",
+    "commit": {
+      "sha": "1dd70fb86bd1e8b41c1b7f3812a52efc2cbfbe3b",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/1dd70fb86bd1e8b41c1b7f3812a52efc2cbfbe3b"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNDEwMjE"
+  },
+  {
+    "name": "20241017",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20241017",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20241017",
+    "commit": {
+      "sha": "e0118303d0db17b6e32b82121a18cc788b5ab364",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/e0118303d0db17b6e32b82121a18cc788b5ab364"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNDEwMTc"
+  },
+  {
+    "name": "20240926",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20240926",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20240926",
+    "commit": {
+      "sha": "a0dd574a119e535d1a5b330306bfedbd0b012d8b",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/a0dd574a119e535d1a5b330306bfedbd0b012d8b"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNDA5MjY"
+  },
+  {
+    "name": "20240905",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20240905",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20240905",
+    "commit": {
+      "sha": "752683e13b0871caa6c0e3e3f733bffa361f904d",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/752683e13b0871caa6c0e3e3f733bffa361f904d"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNDA5MDU"
+  },
+  {
+    "name": "20240816",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20240816",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20240816",
+    "commit": {
+      "sha": "713161599e1b590249b1cd8a9e7f2a7f68d8d52d",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/713161599e1b590249b1cd8a9e7f2a7f68d8d52d"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNDA4MTY"
+  },
+  {
+    "name": "20240813",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20240813",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20240813",
+    "commit": {
+      "sha": "0de38f39d1a27c3fbcb22103ef8e8d20689dbbfe",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/0de38f39d1a27c3fbcb22103ef8e8d20689dbbfe"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNDA4MTM"
+  },
+  {
+    "name": "20240807",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20240807",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20240807",
+    "commit": {
+      "sha": "b0a69a2853febf78a80a139de4a21e8dac855ba5",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/b0a69a2853febf78a80a139de4a21e8dac855ba5"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNDA4MDc"
+  },
+  {
+    "name": "20240726",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20240726",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20240726",
+    "commit": {
+      "sha": "fc2bb198df40c393c059f297eaa3d6634fde97c4",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/fc2bb198df40c393c059f297eaa3d6634fde97c4"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNDA3MjY"
+  },
+  {
+    "name": "20240709",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20240709",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20240709",
+    "commit": {
+      "sha": "2459349f4725d6ff4782996a13997f3be38cfc2c",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/2459349f4725d6ff4782996a13997f3be38cfc2c"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNDA3MDk"
+  },
+  {
+    "name": "20240528",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20240528",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20240528",
+    "commit": {
+      "sha": "82a0b70d86373415e4056bb486a1abdac656a36c",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/82a0b70d86373415e4056bb486a1abdac656a36c"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNDA1Mjg"
+  },
+  {
+    "name": "20240515",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20240515",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20240515",
+    "commit": {
+      "sha": "9af3db7d4dd771b02950da08cb908de56d3de28b",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/9af3db7d4dd771b02950da08cb908de56d3de28b"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNDA1MTU"
+  },
+  {
+    "name": "20240514",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20240514",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20240514",
+    "commit": {
+      "sha": "646bd604472e73f41b418483d5218223ebcf021e",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/646bd604472e73f41b418483d5218223ebcf021e"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNDA1MTQ"
+  },
+  {
+    "name": "20240513",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20240513",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20240513",
+    "commit": {
+      "sha": "f3ea496a1ae9b5706fd51209ed04204249412913",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/f3ea496a1ae9b5706fd51209ed04204249412913"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNDA1MTM"
+  },
+  {
+    "name": "20240510",
+    "zipball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/zipball/refs/tags/20240510",
+    "tarball_url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/tarball/refs/tags/20240510",
+    "commit": {
+      "sha": "b9dd20e9e24068492e6d906ddd6ab1c41f573b9f",
+      "url": "https://api.github.com/repos/sipeed/LicheeRV-Nano-Build/commits/b9dd20e9e24068492e6d906ddd6ab1c41f573b9f"
+    },
+    "node_id": "REF_kwDOLHNGLrJyZWZzL3RhZ3MvMjAyNDA1MTA"
+  }
+]

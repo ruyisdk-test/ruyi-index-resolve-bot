@@ -1,0 +1,13 @@
+{
+  "name": "revyos-sg2042",
+  "web": [
+    "web19.txt"
+  ],
+  "oldv": "oldv21.txt",
+  "result": {
+    "version": [
+      "20260105",
+      "20260504"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "duo-buildroot-sdk-v2",
+  "web": [
+    "web7.txt"
+  ],
+  "oldv": "oldv9.txt",
+  "result": {
+    "version": []
+  }
+}

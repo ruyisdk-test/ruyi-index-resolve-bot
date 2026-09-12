@@ -1,0 +1,12 @@
+{
+  "name": "revyos-lpi4a",
+  "web": [
+    "web16.txt"
+  ],
+  "oldv": "oldv18.txt",
+  "result": {
+    "version": [
+      "20260504"
+    ]
+  }
+}

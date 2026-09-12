@@ -1,0 +1,12 @@
+{
+  "name": "LicheeRV-Nano-Build",
+  "web": [
+    "web9.txt"
+  ],
+  "oldv": "oldv11.txt",
+  "result": {
+    "version": [
+      "20260407"
+    ]
+  }
+}

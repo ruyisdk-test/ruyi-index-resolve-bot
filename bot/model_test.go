@@ -14,12 +14,12 @@ import (
 func TestMain(m *testing.M) {
 	config, err := ConfigLoad()
 	if err != nil {
-		slog.Error("will skip test:", "error", err)
+		slog.Error("config error will skip test:", "error", err)
 		return
 	}
 	err = ModelHello(config)
 	if err != nil {
-		slog.Error("will skip test:", "error", err)
+		slog.Error("model hello error will skip test:", "error", err)
 		return
 	}
 	os.Exit(m.Run())
@@ -76,11 +76,11 @@ func TestAskUpstreamVersion(t *testing.T) {
 		}
 
 		if len(nad.Version) != len(ad.Result.Version) {
-			t.Fatalf("want %d results, got %d", len(ad.Result.Version), len(nad.Version))
+			t.Fatalf("%s want %d results, got %d", a, len(ad.Result.Version), len(nad.Version))
 		}
 		for i, v := range nad.Version {
 			if v != ad.Result.Version[i] {
-				t.Fatalf("want %s, got %s", ad.Result.Version, nad.Version)
+				t.Fatalf("%s want %s, got %s", a, ad.Result.Version, nad.Version)
 			}
 		}
 	}

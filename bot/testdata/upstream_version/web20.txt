@@ -1,0 +1,52 @@
+[
+  {
+    "name": "v1.4.0",
+    "zipball_url": "https://api.github.com/repos/Fishwaldo/sophgo-sg200x-debian/zipball/refs/tags/v1.4.0",
+    "tarball_url": "https://api.github.com/repos/Fishwaldo/sophgo-sg200x-debian/tarball/refs/tags/v1.4.0",
+    "commit": {
+      "sha": "5e5f1a6080d42a1c00fde5bedc775d47b750f5b1",
+      "url": "https://api.github.com/repos/Fishwaldo/sophgo-sg200x-debian/commits/5e5f1a6080d42a1c00fde5bedc775d47b750f5b1"
+    },
+    "node_id": "REF_kwDOLshM5LByZWZzL3RhZ3MvdjEuNC4w"
+  },
+  {
+    "name": "v1.3.0",
+    "zipball_url": "https://api.github.com/repos/Fishwaldo/sophgo-sg200x-debian/zipball/refs/tags/v1.3.0",
+    "tarball_url": "https://api.github.com/repos/Fishwaldo/sophgo-sg200x-debian/tarball/refs/tags/v1.3.0",
+    "commit": {
+      "sha": "902d60ee09e9740659fff94cd95ab40b9103d587",
+      "url": "https://api.github.com/repos/Fishwaldo/sophgo-sg200x-debian/commits/902d60ee09e9740659fff94cd95ab40b9103d587"
+    },
+    "node_id": "REF_kwDOLshM5LByZWZzL3RhZ3MvdjEuMy4w"
+  },
+  {
+    "name": "v1.2.0",
+    "zipball_url": "https://api.github.com/repos/Fishwaldo/sophgo-sg200x-debian/zipball/refs/tags/v1.2.0",
+    "tarball_url": "https://api.github.com/repos/Fishwaldo/sophgo-sg200x-debian/tarball/refs/tags/v1.2.0",
+    "commit": {
+      "sha": "ceee515c90d71361f1b12774bc15d2d8c4dd779d",
+      "url": "https://api.github.com/repos/Fishwaldo/sophgo-sg200x-debian/commits/ceee515c90d71361f1b12774bc15d2d8c4dd779d"
+    },
+    "node_id": "REF_kwDOLshM5LByZWZzL3RhZ3MvdjEuMi4w"
+  },
+  {
+    "name": "v1.1.0",
+    "zipball_url": "https://api.github.com/repos/Fishwaldo/sophgo-sg200x-debian/zipball/refs/tags/v1.1.0",
+    "tarball_url": "https://api.github.com/repos/Fishwaldo/sophgo-sg200x-debian/tarball/refs/tags/v1.1.0",
+    "commit": {
+      "sha": "9d19b49b75df2d733446edbdd0ea1727156fc7df",
+      "url": "https://api.github.com/repos/Fishwaldo/sophgo-sg200x-debian/commits/9d19b49b75df2d733446edbdd0ea1727156fc7df"
+    },
+    "node_id": "REF_kwDOLshM5LByZWZzL3RhZ3MvdjEuMS4w"
+  },
+  {
+    "name": "v1.0.0",
+    "zipball_url": "https://api.github.com/repos/Fishwaldo/sophgo-sg200x-debian/zipball/refs/tags/v1.0.0",
+    "tarball_url": "https://api.github.com/repos/Fishwaldo/sophgo-sg200x-debian/tarball/refs/tags/v1.0.0",
+    "commit": {
+      "sha": "88d97d3e0d15cc5aa1a3e56d59810cb40dfcd6da",
+      "url": "https://api.github.com/repos/Fishwaldo/sophgo-sg200x-debian/commits/88d97d3e0d15cc5aa1a3e56d59810cb40dfcd6da"
+    },
+    "node_id": "REF_kwDOLshM5LByZWZzL3RhZ3MvdjEuMC4w"
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "name": "26.8.0-trunk.426",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.426",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.426",
+    "commit": {
+      "sha": "a6b7a8bb5a1103e8f83a4f7eaaeadc138fad34d8",
+      "url": "https://api.github.com/repos/armbian/os/commits/a6b7a8bb5a1103e8f83a4f7eaaeadc138fad34d8"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjQyNg"
+  },
+  {
+    "name": "26.8.0-trunk.425",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.425",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.425",
+    "commit": {
+      "sha": "3d28e7b3b138892eee2e9486feae29b8538ecab5",
+      "url": "https://api.github.com/repos/armbian/os/commits/3d28e7b3b138892eee2e9486feae29b8538ecab5"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjQyNQ"
+  },
+  {
+    "name": "26.8.0-trunk.423",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.423",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.423",
+    "commit": {
+      "sha": "94fe68a4ac3b71d7dc9a64f7bb58f1b9d5038cf1",
+      "url": "https://api.github.com/repos/armbian/os/commits/94fe68a4ac3b71d7dc9a64f7bb58f1b9d5038cf1"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjQyMw"
+  },
+  {
+    "name": "26.8.0-trunk.422",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.422",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.422",
+    "commit": {
+      "sha": "48ea9d8f80f0c581cd728d5c1c9e3b88df4816e4",
+      "url": "https://api.github.com/repos/armbian/os/commits/48ea9d8f80f0c581cd728d5c1c9e3b88df4816e4"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjQyMg"
+  },
+  {
+    "name": "26.8.0-trunk.421",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.421",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.421",
+    "commit": {
+      "sha": "43d7d7fa11b79d083087d073f546006386b5d21c",
+      "url": "https://api.github.com/repos/armbian/os/commits/43d7d7fa11b79d083087d073f546006386b5d21c"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjQyMQ"
+  },
+  {
+    "name": "26.8.0-trunk.420",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.420",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.420",
+    "commit": {
+      "sha": "db2b09d1b06312ba106b25f60707c8508b5fbe11",
+      "url": "https://api.github.com/repos/armbian/os/commits/db2b09d1b06312ba106b25f60707c8508b5fbe11"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjQyMA"
+  },
+  {
+    "name": "26.8.0-trunk.419",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.419",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.419",
+    "commit": {
+      "sha": "7e42586ee6a6d9caf95d5eaedf169cadd115202f",
+      "url": "https://api.github.com/repos/armbian/os/commits/7e42586ee6a6d9caf95d5eaedf169cadd115202f"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjQxOQ"
+  },
+  {
+    "name": "26.8.0-trunk.418",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.418",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.418",
+    "commit": {
+      "sha": "47bf4a3e1adb07b39ad96a54c5089e91738560dd",
+      "url": "https://api.github.com/repos/armbian/os/commits/47bf4a3e1adb07b39ad96a54c5089e91738560dd"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjQxOA"
+  },
+  {
+    "name": "26.8.0-trunk.417",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.417",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.417",
+    "commit": {
+      "sha": "a9c243467b21118083b6d400815965e587b0f194",
+      "url": "https://api.github.com/repos/armbian/os/commits/a9c243467b21118083b6d400815965e587b0f194"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjQxNw"
+  },
+  {
+    "name": "26.8.0-trunk.416",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.416",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.416",
+    "commit": {
+      "sha": "d604269129001ad0295bcb007a0ac33ff427c2f2",
+      "url": "https://api.github.com/repos/armbian/os/commits/d604269129001ad0295bcb007a0ac33ff427c2f2"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjQxNg"
+  },
+  {
+    "name": "26.8.0-trunk.415",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.415",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.415",
+    "commit": {
+      "sha": "2702a530ede4fce8eed7b8d9eabc3e2e5a11142e",
+      "url": "https://api.github.com/repos/armbian/os/commits/2702a530ede4fce8eed7b8d9eabc3e2e5a11142e"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjQxNQ"
+  },
+  {
+    "name": "26.8.0-trunk.414",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.414",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.414",
+    "commit": {
+      "sha": "9e13b98ba1431823148ed30dceed800b70970c9a",
+      "url": "https://api.github.com/repos/armbian/os/commits/9e13b98ba1431823148ed30dceed800b70970c9a"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjQxNA"
+  },
+  {
+    "name": "26.8.0-trunk.413",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.413",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.413",
+    "commit": {
+      "sha": "dfbfcfae4b2407ba087383999e729dfb3cc179f1",
+      "url": "https://api.github.com/repos/armbian/os/commits/dfbfcfae4b2407ba087383999e729dfb3cc179f1"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjQxMw"
+  },
+  {
+    "name": "26.8.0-trunk.412",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.412",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.412",
+    "commit": {
+      "sha": "e9fd0a633066659d710bb3a1d07afba82e2d8b5f",
+      "url": "https://api.github.com/repos/armbian/os/commits/e9fd0a633066659d710bb3a1d07afba82e2d8b5f"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjQxMg"
+  },
+  {
+    "name": "26.8.0-trunk.411",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.411",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.411",
+    "commit": {
+      "sha": "7482920c73d9fcadb66719e31db544ab168f4562",
+      "url": "https://api.github.com/repos/armbian/os/commits/7482920c73d9fcadb66719e31db544ab168f4562"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjQxMQ"
+  },
+  {
+    "name": "26.8.0-trunk.410",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.410",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.410",
+    "commit": {
+      "sha": "95b24b9c5c804a1c626ac86da4ef27f5f80f68ff",
+      "url": "https://api.github.com/repos/armbian/os/commits/95b24b9c5c804a1c626ac86da4ef27f5f80f68ff"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjQxMA"
+  },
+  {
+    "name": "26.8.0-trunk.409",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.409",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.409",
+    "commit": {
+      "sha": "ed216fcd15c1be42d375d165fb4e10990dcfc026",
+      "url": "https://api.github.com/repos/armbian/os/commits/ed216fcd15c1be42d375d165fb4e10990dcfc026"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjQwOQ"
+  },
+  {
+    "name": "26.8.0-trunk.408",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.408",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.408",
+    "commit": {
+      "sha": "f6db12d993ab8dcf31e902df2e3733a9e6ee2d77",
+      "url": "https://api.github.com/repos/armbian/os/commits/f6db12d993ab8dcf31e902df2e3733a9e6ee2d77"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjQwOA"
+  },
+  {
+    "name": "26.8.0-trunk.407",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.407",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.407",
+    "commit": {
+      "sha": "8d8a0a9f40be9e445a4ffa8dcf83c340a73ce260",
+      "url": "https://api.github.com/repos/armbian/os/commits/8d8a0a9f40be9e445a4ffa8dcf83c340a73ce260"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjQwNw"
+  },
+  {
+    "name": "26.8.0-trunk.406",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.406",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.406",
+    "commit": {
+      "sha": "4e5f35a56d9c349a130dc28229cdcd96defa6f9c",
+      "url": "https://api.github.com/repos/armbian/os/commits/4e5f35a56d9c349a130dc28229cdcd96defa6f9c"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjQwNg"
+  },
+  {
+    "name": "26.8.0-trunk.405",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.405",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.405",
+    "commit": {
+      "sha": "1d0297ed29a33aeaa3bbe01084539aa27116ff96",
+      "url": "https://api.github.com/repos/armbian/os/commits/1d0297ed29a33aeaa3bbe01084539aa27116ff96"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjQwNQ"
+  },
+  {
+    "name": "26.8.0-trunk.404",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.404",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.404",
+    "commit": {
+      "sha": "aa1fd3bfbf67e6239994d1a09066407e22e32a86",
+      "url": "https://api.github.com/repos/armbian/os/commits/aa1fd3bfbf67e6239994d1a09066407e22e32a86"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjQwNA"
+  },
+  {
+    "name": "26.8.0-trunk.403",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.403",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.403",
+    "commit": {
+      "sha": "7b9f74b998f340e134f6be714e5d83b3da03ce52",
+      "url": "https://api.github.com/repos/armbian/os/commits/7b9f74b998f340e134f6be714e5d83b3da03ce52"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjQwMw"
+  },
+  {
+    "name": "26.8.0-trunk.402",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.402",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.402",
+    "commit": {
+      "sha": "3fc19e73d84427a3a83c5354f72f8b3a952c6de9",
+      "url": "https://api.github.com/repos/armbian/os/commits/3fc19e73d84427a3a83c5354f72f8b3a952c6de9"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjQwMg"
+  },
+  {
+    "name": "26.8.0-trunk.401",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.401",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.401",
+    "commit": {
+      "sha": "58793f753c7d9c2a77a5f2a2c1acb1b88ba82292",
+      "url": "https://api.github.com/repos/armbian/os/commits/58793f753c7d9c2a77a5f2a2c1acb1b88ba82292"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjQwMQ"
+  },
+  {
+    "name": "26.8.0-trunk.400",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.400",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.400",
+    "commit": {
+      "sha": "72c2bb8a2de77aca65e57d2d976c0d5259eb3204",
+      "url": "https://api.github.com/repos/armbian/os/commits/72c2bb8a2de77aca65e57d2d976c0d5259eb3204"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjQwMA"
+  },
+  {
+    "name": "26.8.0-trunk.399",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.399",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.399",
+    "commit": {
+      "sha": "c670e142a3936c24356c82111b212622a61399f3",
+      "url": "https://api.github.com/repos/armbian/os/commits/c670e142a3936c24356c82111b212622a61399f3"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjM5OQ"
+  },
+  {
+    "name": "26.8.0-trunk.398",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.398",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.398",
+    "commit": {
+      "sha": "def979e61f8309a68a3fd1334f25ead154565cad",
+      "url": "https://api.github.com/repos/armbian/os/commits/def979e61f8309a68a3fd1334f25ead154565cad"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjM5OA"
+  },
+  {
+    "name": "26.8.0-trunk.397",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.397",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.397",
+    "commit": {
+      "sha": "4af122597c3b7390b83c349d80253cbaf6f135b4",
+      "url": "https://api.github.com/repos/armbian/os/commits/4af122597c3b7390b83c349d80253cbaf6f135b4"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjM5Nw"
+  },
+  {
+    "name": "26.8.0-trunk.396",
+    "zipball_url": "https://api.github.com/repos/armbian/os/zipball/refs/tags/26.8.0-trunk.396",
+    "tarball_url": "https://api.github.com/repos/armbian/os/tarball/refs/tags/26.8.0-trunk.396",
+    "commit": {
+      "sha": "1602b4ad1fb09fda97feb152e7b94c51172f9b5e",
+      "url": "https://api.github.com/repos/armbian/os/commits/1602b4ad1fb09fda97feb152e7b94c51172f9b5e"
+    },
+    "node_id": "REF_kwDOJABJOLpyZWZzL3RhZ3MvMjYuOC4wLXRydW5rLjM5Ng"
+  }
+]

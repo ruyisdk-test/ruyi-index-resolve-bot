@@ -1,0 +1,9 @@
+<html>
+<head><title>Index of /revyos/extra/images/laptop4a/</title></head>
+<body>
+<h1>Index of /revyos/extra/images/laptop4a/</h1><hr><pre><a href="../">../</a>
+<a href="20240720/">20240720/</a>                                          20-Jul-2024 18:44       -
+<a href="20251226/">20251226/</a>                                          25-Dec-2025 18:39       -
+<a href="20260504/">20260504/</a>                                          04-May-2026 01:18       -
+</pre><hr></body>
+</html>

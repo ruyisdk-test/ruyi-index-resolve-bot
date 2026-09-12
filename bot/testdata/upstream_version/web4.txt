@@ -1,0 +1,62 @@
+[
+  {
+    "name": "26.11.0-trunk.44",
+    "zipball_url": "https://api.github.com/repos/armbian/community/zipball/refs/tags/26.11.0-trunk.44",
+    "tarball_url": "https://api.github.com/repos/armbian/community/tarball/refs/tags/26.11.0-trunk.44",
+    "commit": {
+      "sha": "e901ef048b59c01e5b2748e193f4ca693aff59e7",
+      "url": "https://api.github.com/repos/armbian/community/commits/e901ef048b59c01e5b2748e193f4ca693aff59e7"
+    },
+    "node_id": "REF_kwDOHxbaRLpyZWZzL3RhZ3MvMjYuMTEuMC10cnVuay40NA"
+  },
+  {
+    "name": "26.11.0-trunk.36",
+    "zipball_url": "https://api.github.com/repos/armbian/community/zipball/refs/tags/26.11.0-trunk.36",
+    "tarball_url": "https://api.github.com/repos/armbian/community/tarball/refs/tags/26.11.0-trunk.36",
+    "commit": {
+      "sha": "e901ef048b59c01e5b2748e193f4ca693aff59e7",
+      "url": "https://api.github.com/repos/armbian/community/commits/e901ef048b59c01e5b2748e193f4ca693aff59e7"
+    },
+    "node_id": "REF_kwDOHxbaRLpyZWZzL3RhZ3MvMjYuMTEuMC10cnVuay4zNg"
+  },
+  {
+    "name": "26.11.0-trunk.33",
+    "zipball_url": "https://api.github.com/repos/armbian/community/zipball/refs/tags/26.11.0-trunk.33",
+    "tarball_url": "https://api.github.com/repos/armbian/community/tarball/refs/tags/26.11.0-trunk.33",
+    "commit": {
+      "sha": "e901ef048b59c01e5b2748e193f4ca693aff59e7",
+      "url": "https://api.github.com/repos/armbian/community/commits/e901ef048b59c01e5b2748e193f4ca693aff59e7"
+    },
+    "node_id": "REF_kwDOHxbaRLpyZWZzL3RhZ3MvMjYuMTEuMC10cnVuay4zMw"
+  },
+  {
+    "name": "26.11.0-trunk.32",
+    "zipball_url": "https://api.github.com/repos/armbian/community/zipball/refs/tags/26.11.0-trunk.32",
+    "tarball_url": "https://api.github.com/repos/armbian/community/tarball/refs/tags/26.11.0-trunk.32",
+    "commit": {
+      "sha": "e901ef048b59c01e5b2748e193f4ca693aff59e7",
+      "url": "https://api.github.com/repos/armbian/community/commits/e901ef048b59c01e5b2748e193f4ca693aff59e7"
+    },
+    "node_id": "REF_kwDOHxbaRLpyZWZzL3RhZ3MvMjYuMTEuMC10cnVuay4zMg"
+  },
+  {
+    "name": "26.11.0-trunk.30",
+    "zipball_url": "https://api.github.com/repos/armbian/community/zipball/refs/tags/26.11.0-trunk.30",
+    "tarball_url": "https://api.github.com/repos/armbian/community/tarball/refs/tags/26.11.0-trunk.30",
+    "commit": {
+      "sha": "e901ef048b59c01e5b2748e193f4ca693aff59e7",
+      "url": "https://api.github.com/repos/armbian/community/commits/e901ef048b59c01e5b2748e193f4ca693aff59e7"
+    },
+    "node_id": "REF_kwDOHxbaRLpyZWZzL3RhZ3MvMjYuMTEuMC10cnVuay4zMA"
+  },
+  {
+    "name": "26.11.0-trunk.19",
+    "zipball_url": "https://api.github.com/repos/armbian/community/zipball/refs/tags/26.11.0-trunk.19",
+    "tarball_url": "https://api.github.com/repos/armbian/community/tarball/refs/tags/26.11.0-trunk.19",
+    "commit": {
+      "sha": "e901ef048b59c01e5b2748e193f4ca693aff59e7",
+      "url": "https://api.github.com/repos/armbian/community/commits/e901ef048b59c01e5b2748e193f4ca693aff59e7"
+    },
+    "node_id": "REF_kwDOHxbaRLpyZWZzL3RhZ3MvMjYuMTEuMC10cnVuay4xOQ"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "name": "revyos-laptop4a",
+  "web": [
+    "web14.txt"
+  ],
+  "oldv": "oldv16.txt",
+  "result": {
+    "version": [
+      "20260504"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "openbsd",
+  "web": [
+    "web11.txt"
+  ],
+  "oldv": "oldv13.txt",
+  "result": {
+    "version": [
+      "7.9"
+    ]
+  }
+}

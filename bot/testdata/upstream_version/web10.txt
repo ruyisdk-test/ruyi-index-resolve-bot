@@ -1,0 +1,22 @@
+[
+  {
+    "name": "V1.0.6",
+    "zipball_url": "https://api.github.com/repos/milkv-mars/mars-buildroot-sdk/zipball/refs/tags/V1.0.6",
+    "tarball_url": "https://api.github.com/repos/milkv-mars/mars-buildroot-sdk/tarball/refs/tags/V1.0.6",
+    "commit": {
+      "sha": "f8d8270aca06ed0d83896ba9c8e9769b3bcab33e",
+      "url": "https://api.github.com/repos/milkv-mars/mars-buildroot-sdk/commits/f8d8270aca06ed0d83896ba9c8e9769b3bcab33e"
+    },
+    "node_id": "REF_kwDOKoO_mrByZWZzL3RhZ3MvVjEuMC42"
+  },
+  {
+    "name": "V1.0.5",
+    "zipball_url": "https://api.github.com/repos/milkv-mars/mars-buildroot-sdk/zipball/refs/tags/V1.0.5",
+    "tarball_url": "https://api.github.com/repos/milkv-mars/mars-buildroot-sdk/tarball/refs/tags/V1.0.5",
+    "commit": {
+      "sha": "3a26f5d65a4b5c440bfe3c7276bf49ca23aa717f",
+      "url": "https://api.github.com/repos/milkv-mars/mars-buildroot-sdk/commits/3a26f5d65a4b5c440bfe3c7276bf49ca23aa717f"
+    },
+    "node_id": "REF_kwDOKoO_mrByZWZzL3RhZ3MvVjEuMC41"
+  }
+]

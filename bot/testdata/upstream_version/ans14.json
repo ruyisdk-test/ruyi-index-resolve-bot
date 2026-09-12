@@ -1,0 +1,15 @@
+{
+  "name": "openkylin-cdimage",
+  "web": [
+    "web12.txt"
+  ],
+  "oldv": "oldv14.txt",
+  "result": {
+    "version": [
+      "2.0",
+      "2.0-SP1",
+      "2.0-SP2",
+      "3.0"
+    ]
+  }
+}

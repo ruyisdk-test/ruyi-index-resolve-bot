@@ -1,0 +1,17 @@
+{
+  "name": "armbian-orangepirv2",
+  "web": [
+    "web4.txt"
+  ],
+  "oldv": "oldv4.txt",
+  "result": {
+    "version": [
+      "26.11.0-trunk.19",
+      "26.11.0-trunk.30",
+      "26.11.0-trunk.32",
+      "26.11.0-trunk.33",
+      "26.11.0-trunk.36",
+      "26.11.0-trunk.44"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "sophgo-sg200x-debian",
+  "web": [
+    "web20.txt"
+  ],
+  "oldv": "oldv22.txt",
+  "result": {
+    "version": []
+  }
+}

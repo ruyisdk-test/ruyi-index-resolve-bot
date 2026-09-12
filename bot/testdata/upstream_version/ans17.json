@@ -1,0 +1,12 @@
+{
+  "name": "revyos-lcon4a",
+  "web": [
+    "web15.txt"
+  ],
+  "oldv": "oldv17.txt",
+  "result": {
+    "version": [
+      "20260504"
+    ]
+  }
+}

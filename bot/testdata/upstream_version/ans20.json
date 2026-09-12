@@ -1,0 +1,12 @@
+{
+  "name": "revyos-meles",
+  "web": [
+    "web18.txt"
+  ],
+  "oldv": "oldv20.txt",
+  "result": {
+    "version": [
+      "20260504"
+    ]
+  }
+}

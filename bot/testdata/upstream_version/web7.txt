@@ -1,0 +1,32 @@
+[
+  {
+    "name": "v2.0.1",
+    "zipball_url": "https://api.github.com/repos/milkv-duo/duo-buildroot-sdk-v2/zipball/refs/tags/v2.0.1",
+    "tarball_url": "https://api.github.com/repos/milkv-duo/duo-buildroot-sdk-v2/tarball/refs/tags/v2.0.1",
+    "commit": {
+      "sha": "6b03c2762e8d2b78ace8926f5828e5ab0312c92f",
+      "url": "https://api.github.com/repos/milkv-duo/duo-buildroot-sdk-v2/commits/6b03c2762e8d2b78ace8926f5828e5ab0312c92f"
+    },
+    "node_id": "REF_kwDOMMJzYrByZWZzL3RhZ3MvdjIuMC4x"
+  },
+  {
+    "name": "v2.0.0",
+    "zipball_url": "https://api.github.com/repos/milkv-duo/duo-buildroot-sdk-v2/zipball/refs/tags/v2.0.0",
+    "tarball_url": "https://api.github.com/repos/milkv-duo/duo-buildroot-sdk-v2/tarball/refs/tags/v2.0.0",
+    "commit": {
+      "sha": "4f4e7e89559b7bffc62a7a916b25560ae49514ee",
+      "url": "https://api.github.com/repos/milkv-duo/duo-buildroot-sdk-v2/commits/4f4e7e89559b7bffc62a7a916b25560ae49514ee"
+    },
+    "node_id": "REF_kwDOMMJzYrByZWZzL3RhZ3MvdjIuMC4w"
+  },
+  {
+    "name": "dl",
+    "zipball_url": "https://api.github.com/repos/milkv-duo/duo-buildroot-sdk-v2/zipball/refs/tags/dl",
+    "tarball_url": "https://api.github.com/repos/milkv-duo/duo-buildroot-sdk-v2/tarball/refs/tags/dl",
+    "commit": {
+      "sha": "ef59aaf624d2af0cfc5306bc179d6610ac158a46",
+      "url": "https://api.github.com/repos/milkv-duo/duo-buildroot-sdk-v2/commits/ef59aaf624d2af0cfc5306bc179d6610ac158a46"
+    },
+    "node_id": "REF_kwDOMMJzYqxyZWZzL3RhZ3MvZGw"
+  }
+]

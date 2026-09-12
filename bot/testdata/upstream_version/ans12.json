@@ -1,0 +1,10 @@
+{
+  "name": "mars-buildroot-sdk",
+  "web": [
+    "web10.txt"
+  ],
+  "oldv": "oldv12.txt",
+  "result": {
+    "version": []
+  }
+}
