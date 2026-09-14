@@ -20,15 +20,15 @@ func ModelHello(config *Config) error {
 	ctx := context.Background()
 
 	g := genkit.Init(ctx, genkit.WithPlugins(&compat_oai.OpenAICompatible{
-		Provider: config.Provider,
-		APIKey:   config.ApiKey,
-		BaseURL:  config.BaseUrl,
+		Provider: config.Model.Provider,
+		APIKey:   config.Model.ApiKey,
+		BaseURL:  config.Model.BaseUrl,
 		Opts: []option.RequestOption{
 			option.WithHeader("Custom-Header", "value"),
 		},
 	}))
 
-	modelName := fmt.Sprintf("%s/%s", config.Provider, config.ModelName)
+	modelName := fmt.Sprintf("%s/%s", config.Model.Provider, config.Model.ModelName)
 	model := ai.NewModelRef(
 		modelName,
 		&openai.ChatCompletionNewParams{
