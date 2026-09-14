@@ -1,4 +1,4 @@
-package bot
+package resolvebot
 
 import (
 	"context"
