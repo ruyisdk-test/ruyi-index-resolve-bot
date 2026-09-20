@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 	"io"
+	"log/slog"
 	"net/http"
 	"net/url"
 	"os"
@@ -22,7 +23,7 @@ type Model struct {
 
 type Config struct {
 	TestBot struct {
-		Addr   string         `yaml:"control_addr" json:"-"`
+		Url    string         `yaml:"control_url" json:"-"`
 		Config testbot.Config `yaml:"-" json:"config"`
 	} `yaml:"test_bot"`
 
@@ -67,19 +68,22 @@ func ConfigLoad() (*Config, error) {
 		return nil, err
 	}
 
-	if config.TestBot.Addr == "" {
-		return nil, errors.New("no testbot addr provided")
+	if config.TestBot.Url == "" {
+		config.TestBot.Url = "http://127.0.0.1:9876/"
 	}
 	err = pingTestBot(&config)
 	if err != nil {
+		slog.Error("testbot ping failed", err)
 		return nil, err
 	}
+
+	slog.Info("use testbot:", "url", config.TestBot.Url)
 
 	return &config, nil
 }
 
 func pingTestBot(config *Config) error {
-	u, err := url.JoinPath(config.TestBot.Addr, "/config")
+	u, err := url.JoinPath(config.TestBot.Url, "/config")
 	if err != nil {
 		return err
 	}
