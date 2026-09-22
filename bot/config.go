@@ -73,7 +73,6 @@ func ConfigLoad() (*Config, error) {
 	}
 	err = pingTestBot(&config)
 	if err != nil {
-		slog.Error("testbot ping failed", err)
 		return nil, err
 	}
 
@@ -93,7 +92,7 @@ func pingTestBot(config *Config) error {
 	}
 	defer resp.Body.Close()
 	if resp.StatusCode != http.StatusOK {
-		return errors.New("bad statuc code from testbot: " + resp.Status)
+		return errors.New("bad status code from testbot: " + resp.Status)
 	}
 
 	buf := make([]byte, resp.ContentLength)
