@@ -7,7 +7,8 @@ require (
 	github.com/gin-gonic/gin v1.12.0
 	github.com/google/go-github/v92 v92.0.0
 	github.com/openai/openai-go v1.12.0
-	github.com/ruyisdk-test/ruyi-index-test-bot v0.0.3
+	github.com/pelletier/go-toml/v2 v2.4.3
+	github.com/ruyisdk-test/ruyi-index-test-bot v0.0.3-1
 	go.yaml.in/yaml/v3 v3.0.5
 )
 
@@ -48,7 +49,6 @@ require (
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/pb33f/ordered-map/v2 v2.3.1 // indirect
-	github.com/pelletier/go-toml/v2 v2.4.3 // indirect
 	github.com/pjbgf/sha1cd v0.6.0 // indirect
 	github.com/quic-go/qpack v0.6.0 // indirect
 	github.com/quic-go/quic-go v0.59.0 // indirect

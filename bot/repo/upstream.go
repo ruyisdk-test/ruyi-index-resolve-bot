@@ -31,6 +31,7 @@ type Upstream struct {
 
 var upstreamsConfig map[string]Upstream = nil
 var packagesUpstream map[string]string = nil
+
 const packagesKeyFmt string = "%s\x00%s"
 
 func UpstreamLoad(repoPath string) error {
@@ -52,19 +53,19 @@ func UpstreamLoad(repoPath string) error {
 	sups := make(map[string]Upstream)
 	pkgu := make(map[string]string)
 	for _, up := range ups {
-		upRiko := path.Join(upPath, "riko2.toml")
-		upReadme := path.Join(upPath, "README.md")
+		upRiko := path.Join(upPath, up.Name(), "riko2.toml")
+		upReadme := path.Join(upPath, up.Name(), "README.md")
 
 		rikoRaw, err := os.ReadFile(upRiko)
 		if err != nil {
 			slog.Warn("riko config file read failed", "path", upRiko, "err", err)
-			slog.Info("will skip:", "upstream", up)
+			slog.Info("will skip:", "upstream", up.Name())
 			continue
 		}
 		readmeRaw, err := os.ReadFile(upReadme)
 		if err != nil {
 			slog.Warn("readme prompt read failed", "path", upReadme, "err", err)
-			slog.Info("will skip:", "upstream", up)
+			slog.Info("will skip:", "upstream", up.Name())
 			continue
 		}
 
@@ -73,7 +74,7 @@ func UpstreamLoad(repoPath string) error {
 		err = toml.Unmarshal(rikoRaw, &riko2)
 		if err != nil {
 			slog.Warn("unmarshal riko config failed", "path", upRiko, "err", err)
-			slog.Info("will skip:", "upstream", up)
+			slog.Info("will skip:", "upstream", up.Name())
 			continue
 		}
 
@@ -84,7 +85,7 @@ func UpstreamLoad(repoPath string) error {
 		nu, err := MirrorApply(sup.Riko2.Mirror.Url)
 		if err != nil {
 			slog.Warn("riko2 mirror configs apply failed", "path", upRiko, "err", err)
-			slog.Info("will skip:", "upstream", up)
+			slog.Info("will skip:", "upstream", up.Name())
 			continue
 		}
 		sup.Riko2.Mirror.Url = nu
