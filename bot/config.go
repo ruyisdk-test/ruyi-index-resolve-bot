@@ -10,6 +10,7 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/ruyisdk-test/ruyi-index-resolve-bot/bot/repo"
 	"github.com/ruyisdk-test/ruyi-index-resolve-bot/bot/web"
 	testbot "github.com/ruyisdk-test/ruyi-index-test-bot/bot"
 	"go.yaml.in/yaml/v3"
@@ -106,6 +107,12 @@ func ConfigLoad() (*Config, error) {
 
 	slog.Info("use testbot:", "url", config.TestBot.Url)
 
+	slog.Info("load mirror config:", "cache", config.TestBot.Config.Repo.CacheDir)
+	err = repo.MirrorLoad(config.TestBot.Config.Repo.CacheDir)
+	if err != nil {
+		return nil, err
+	}
+
 	return &config, nil
 }
 
@@ -129,6 +136,7 @@ func pingTestBot(config *Config) error {
 		return err
 	}
 
+	// load test bot config
 	err = json.Unmarshal(buf, &(config.TestBot))
 	if err != nil {
 		return err
