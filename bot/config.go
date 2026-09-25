@@ -13,6 +13,7 @@ import (
 	"github.com/ruyisdk-test/ruyi-index-resolve-bot/bot/repo"
 	"github.com/ruyisdk-test/ruyi-index-resolve-bot/bot/web"
 	testbot "github.com/ruyisdk-test/ruyi-index-test-bot/bot"
+	"github.com/ruyisdk-test/ruyi-index-test-bot/bot/db"
 	"go.yaml.in/yaml/v3"
 )
 
@@ -100,6 +101,11 @@ func ConfigLoad() (*Config, error) {
 		return nil, err
 	}
 
+	err = pingValkey(&config)
+	if err != nil {
+		return nil, err
+	}
+
 	err = pingGithubApi(&config)
 	if err != nil {
 		return nil, err
@@ -143,6 +149,10 @@ func pingTestBot(config *Config) error {
 	}
 
 	return nil
+}
+
+func pingValkey(config *Config) error {
+	return db.Connect(config.TestBot.Config.Valkey.Addr)
 }
 
 func pingGithubApi(config *Config) error {
