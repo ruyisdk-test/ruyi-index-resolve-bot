@@ -110,3 +110,20 @@ func UpstreamLoad(repoPath string) error {
 
 	return nil
 }
+
+func GetUpstream(upstreamName string) (Upstream, error) {
+	upstream, ok := upstreamsConfig[upstreamName]
+	if !ok {
+		return Upstream{}, errors.New("upstream not found")
+	}
+	return upstream, nil
+}
+
+func GetUpstreamByPackage(packageName string, packageGroup string) (Upstream, error) {
+	key := fmt.Sprintf(packagesKeyFmt, packageGroup, packageName)
+	upstream, ok := packagesUpstream[key]
+	if !ok {
+		return Upstream{}, errors.New("package not found")
+	}
+	return GetUpstream(upstream)
+}
