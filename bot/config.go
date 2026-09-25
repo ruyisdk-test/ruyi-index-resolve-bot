@@ -10,7 +10,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ruyisdk-test/ruyi-index-resolve-bot/bot/nvchecker"
+	"github.com/ruyisdk-test/ruyi-index-resolve-bot/bot/web"
 	testbot "github.com/ruyisdk-test/ruyi-index-test-bot/bot"
 	"go.yaml.in/yaml/v3"
 )
@@ -142,10 +142,10 @@ func pingGithubApi(config *Config) error {
 		return errors.New("no github pat configured")
 	}
 
-	err := nvchecker.InitGithubClient(config.Github.Pat)
+	err := web.InitGithubClient(config.Github.Pat)
 	if err != nil {
 		return err
 	}
 
-	return nvchecker.ListFoxOrgs()
+	return web.ListFoxOrgs()
 }
