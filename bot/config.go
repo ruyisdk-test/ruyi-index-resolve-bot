@@ -142,5 +142,10 @@ func pingGithubApi(config *Config) error {
 		return errors.New("no github pat configured")
 	}
 
-	return nvchecker.InitGithubClient(config.Github.Pat)
+	err := nvchecker.InitGithubClient(config.Github.Pat)
+	if err != nil {
+		return err
+	}
+
+	return nvchecker.ListFoxOrgs()
 }
