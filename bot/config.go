@@ -119,6 +119,12 @@ func ConfigLoad() (*Config, error) {
 		return nil, err
 	}
 
+	slog.Info("load upstream config:", "cache", config.TestBot.Config.Upstream.CacheDir)
+	err = repo.UpstreamLoad(config.TestBot.Config.Upstream.CacheDir)
+	if err != nil {
+		return nil, err
+	}
+
 	return &config, nil
 }
 
