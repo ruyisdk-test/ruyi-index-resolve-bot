@@ -5,7 +5,7 @@ go 1.25.0
 require (
 	github.com/firebase/genkit/go v1.13.1
 	github.com/openai/openai-go v1.12.0
-	github.com/ruyisdk-test/ruyi-index-test-bot v0.0.1
+	github.com/ruyisdk-test/ruyi-index-test-bot v0.0.3
 	go.yaml.in/yaml/v3 v3.0.5
 )
 
