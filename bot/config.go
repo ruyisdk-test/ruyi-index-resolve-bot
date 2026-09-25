@@ -10,6 +10,7 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/ruyisdk-test/ruyi-index-resolve-bot/bot/nvchecker"
 	testbot "github.com/ruyisdk-test/ruyi-index-test-bot/bot"
 	"go.yaml.in/yaml/v3"
 )
@@ -17,17 +18,30 @@ import (
 type Model struct {
 	Provider  string `yaml:"provider"`
 	BaseUrl   string `yaml:"base_url"`
-	ApiKey    string `yaml:"api_key"`
+	ApiKey    string `yaml:"api_key" json:"-"`
 	ModelName string `yaml:"model"`
 }
 
+type Github struct {
+	Pat string `yaml:"token" json:"-"`
+}
+
 type Config struct {
+	configPath string `yaml:"-"`
+
+	Server struct {
+		ListenAddr        string `yaml:"listen_addr" json:"-"`
+		ControlListenAddr string `yaml:"control_addr" json:"-"`
+	} `yaml:"server" json:"-"`
+
 	TestBot struct {
 		Url    string         `yaml:"control_url" json:"-"`
 		Config testbot.Config `yaml:"-" json:"config"`
 	} `yaml:"test_bot"`
 
-	Model Model `yaml:"model"`
+	Model Model `yaml:"model" json:"-"`
+
+	Github Github `yaml:"github" json:"-"`
 }
 
 const configName = "config.yaml"
@@ -47,18 +61,18 @@ func ConfigLoad() (*Config, error) {
 			ModelName: "gpt-4o",
 		},
 	}
-	configPath := filepath.Join(currentPath, configName)
-	if _, err := os.Stat(configPath); err != nil {
+	config.configPath = filepath.Join(currentPath, configName)
+	if _, err := os.Stat(config.configPath); err != nil {
 		data, err := yaml.Marshal(config)
 		if err != nil {
 			return nil, err
 		}
 
-		err = os.WriteFile(configPath, data, 0644)
+		err = os.WriteFile(config.configPath, data, 0644)
 		return nil, errors.New("no config file, created")
 	}
 
-	data, err := os.ReadFile(configPath)
+	data, err := os.ReadFile(config.configPath)
 	if err != nil {
 		return nil, err
 	}
@@ -68,10 +82,24 @@ func ConfigLoad() (*Config, error) {
 		return nil, err
 	}
 
+	if config.Server.ListenAddr == "" {
+		config.Server.ListenAddr = "127.0.0.1:9875"
+	}
+	if config.Server.ControlListenAddr == "" {
+		config.Server.ControlListenAddr = "127.0.0.1:9874"
+	}
+	slog.Info("service listening on address:", "addr", config.Server.ListenAddr)
+	slog.Info("control listening on address:", "addr", config.Server.ControlListenAddr)
+
 	if config.TestBot.Url == "" {
 		config.TestBot.Url = "http://127.0.0.1:9876/"
 	}
 	err = pingTestBot(&config)
+	if err != nil {
+		return nil, err
+	}
+
+	err = pingGithubApi(&config)
 	if err != nil {
 		return nil, err
 	}
@@ -107,4 +135,12 @@ func pingTestBot(config *Config) error {
 	}
 
 	return nil
+}
+
+func pingGithubApi(config *Config) error {
+	if config.Github.Pat == "" {
+		return errors.New("no github pat configured")
+	}
+
+	return nvchecker.InitGithubClient(config.Github.Pat)
 }

@@ -1,9 +1,11 @@
 module github.com/ruyisdk-test/ruyi-index-resolve-bot
 
-go 1.25.0
+go 1.26.0
 
 require (
 	github.com/firebase/genkit/go v1.13.1
+	github.com/gin-gonic/gin v1.12.0
+	github.com/google/go-github/v92 v92.0.0
 	github.com/openai/openai-go v1.12.0
 	github.com/ruyisdk-test/ruyi-index-test-bot v0.0.3
 	go.yaml.in/yaml/v3 v3.0.5
@@ -23,7 +25,6 @@ require (
 	github.com/emirpasic/gods v1.18.1 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.12 // indirect
 	github.com/gin-contrib/sse v1.1.0 // indirect
-	github.com/gin-gonic/gin v1.12.0 // indirect
 	github.com/go-git/gcfg/v2 v2.0.2 // indirect
 	github.com/go-git/go-billy/v6 v6.0.0-alpha.2 // indirect
 	github.com/go-git/go-git/v6 v6.0.0-alpha.5 // indirect
@@ -35,6 +36,7 @@ require (
 	github.com/goccy/go-json v0.10.5 // indirect
 	github.com/goccy/go-yaml v1.19.2 // indirect
 	github.com/google/dotprompt/go v0.0.0-20260708220100-73beb993ac95 // indirect
+	github.com/google/go-querystring v1.2.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/invopop/jsonschema v0.14.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
